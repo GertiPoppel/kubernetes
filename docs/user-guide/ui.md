@@ -126,7 +126,7 @@ track=stable
 
 #### Uploading a YAML or JSON file
 
-Kubernetes supports declarative configuration. In this style, all configuration is stored in YAML or JSON configuration files using the Kubernetes' [API](http://kubernetes.io/v1.1/docs/api.html) resource schemas as the configuration schemas.
+Kubernetes supports declarative configuration. In this style, all configuration is stored in YAML or JSON [configuration files](http://kubernetes.io/v1.1/docs/user-guide/simple-yaml.html) using the Kubernetes' [API](http://kubernetes.io/v1.1/docs/api.html) resource schemas as the configuration schemas.
 
 As an alternative to specifying application details in the deploy wizard, you can define your Replication Controllers and Services in YAML or JSON files, and upload the files to your Pods:
 
